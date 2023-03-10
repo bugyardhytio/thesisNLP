@@ -1,0 +1,89 @@
+--- 
+title: "Natural Language Processing in RPJMD Mission-Vision Statement"
+subtitle: "Case Study for AI-Based Open Policy Analysis in Development Planning"
+author: "Moh. Bugy Ardhytio Yusuf"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 3
+    number_sections: true
+    include:
+      in_header: preamble.tex
+bibliography: daftarPustaka.bib
+biblio-style: apa
+link-citations: yes
+documentclass: report
+fontsize: 12pt
+indenting: yes
+---
+
+# PENDAHULUAN 
+## Latar Belakang 
+Indonesia menerapkan dua madzhab perencanaan formal: (1) perencanaan spasial yang berbentuk RTRW dan turunannya, (2) perencanaan pembangunan strategis yang berbentuk RPJP dan RPJM. Secara teoritis, perencanaan pembangunan strategis disusun mengacu pada rencana spasial. Namun perbedaan rentang waktu dan faktor politik bisa mengubah rencana teknokratis yang sudah disusun. Menyebabkan visi antar rencana tidak sepenuhnya selaras antar daerah, namun sesuai dengan janji politik pencalonan kepala daerah.
+
+Terdapat dua faktor yang mempengaruhi proses perencanaan, sosio-teknikal dan politik. Perencanaan teknokratik sendiri merupakan aspek teknis yang biasanya dipecahkan di Bappeda masing-masing daerah. Sedangkan aspek politis adalah janji-janji kampanye yang disampaikan agar kepala daerah terpilih menduduki jabatannya. Dualisme ini menunjukkan pada satu sisi akomodasi kepentingan dalam perencanaan, namun di sisi lain dibutuhkan komunikasi yang intens antar kepala daerah dan Badan Perencanaannya.
+
+Perbedaan ideologi yang diusung masing-masing partai dan calon usungannya memberi “warna” dalam pembangunan Indonesia. Hal ini bisa dimaknai positif maupun negatif. Misalkan diskontinuitas pembangunan bisa terjadi jika kepala daerah berganti. Masalah ini menjadi latar belakang dibutuhkannya suatu “kesepakatan bersama” antara perencana, masyarakat umum dan kepala daerah dalam hal arah pembangunan. Sebagai produk hukum, dokumen perencanaan diharapkan berperan penting dalam pembuatan “kesepakatan bersama” yang inklusif tersebut. Keberadaan teknologi yang bisa dimanfaatkan juga bisa berperan penting.
+
+Tulisan ini menawarkan studi kasus *open policy analysis* berbasis kecerdasan buatan sebagai media pengembangan kesepakatan bersama tersebut. Sebagaimana *open policy analysis* akan dijelaskan kemudian, tulisan ini membantu memperkenalkan analisis tersebut dalam dunia perencanaan. Hal ini yang dalam penelitian-penelitian sebelumnya seperti @Brinkley2021, @Fu2023 dan @Kaczmarek2022 belum dilakukan.
+
+## Rumusan Permasalahan 
+Ada dua permasalahan dalam penelitian ini: 
+1. Bagaimana kecerdasan buatan bisa bermanfaat bukan hanya dari efisiensi dan automasi proses namun inklusivitas melalui *open policy analysis* 
+2. Bagaimana produk alat analisis kecerdasan buatan dalam dunia perencanaan wilayah dan kota secara dikembangkan dan bermanfaat. 
+Permasalahan pertama termasuk kategori *cloud problem* sedangkan permasalahan kedua termasuk *clock problem* (Popper, 1966).
+
+## Tujuan Studi
+Berdasarkan kedua permasalahan yang dirumuskan, tujuan penelitian ini adalah menilai efektifitas perangkat kerja *tools* berbasis *open policy analysis* dan kecerdasan buatan dalam kaitannya dengan transparansi dan efisiensi perencanaan pembangunan. Untuk mencapai tujuan tersebut, dilakukan:
+
+1. Pemetaan literatur berkaitan dengan kata kunci *open policy analysis*, kecerdasan buatan, *smart government* dan perencanaan pembangunan, atau literatur yang terkait;
+2. Pengembangan produk kecerdasan buatan untuk mengevaluasi, menyelaraskan dan memetakan variasi visi-misi pembangunan kepala daerah;
+3. Survey ke pengguna terkait produk yang sudah dibangun.
+
+Tujuan dari riset ini adalah menyediakan bukti bahwa open policy bisa dilakukan dalam bidang perencanaan pembangunan dan berbasis kecerdasan buatan. Teknologi *open policy analysis* dan kerangka kerja sudah tersedia [@Guardia2021]. Masalahnya adalah bagaimana tenaga praktis bisa dikembangkan dan variasi pemanfaatannya.
+
+## Ruang Lingkup 
+Penelitian ini membahas titik temu antara bidang studi Perencanaan Wilayah dan Kota, teknologi khususnya kecerdasan buatan (ilmu data) serta politik. Bidang politik tidak akan dibahas secara mendetail. Meskipun terkait, variabel partai pengusung dalam analisis yang lebih mengedepankan bidang Perencanaan Pembangunan dan Kecerdasan Buatan.
+
+## Keaslian dan Kebaruan Penelitian 
+Belum ada yang melakukan kajian *open policy analysis* berbasis kecerdasan buatan. Ada beberapa penelitian terkait mengenai pemanfaatan NLP dalam membaca dokumen rencana (Tabel 2).
+
+## Manfaat Penelitian 
+Harapan dari perkenalan ini adalah terbukanya peluang bagi masyarakat luas untuk 'menikmati' rencana pembangunan daerah. Masyarakat bisa memantau perkembangan daerah-daerah di Indonesia tanpa harus membaca satu persatu produk perencanaan. 
+
+Integrasinya analisis tingkat lanjut ke dalam produk-produk perencanaan khususnya di Indonesia juga diharapkan dengan *open policy analysis*. Setelah menjadi studi kasus, hasil penelitian bisa dimanfaatkan untuk meningkatkan transparansi kebijakan dan keberlanjutan program pembangunan. Manfaat lainnya yang spesifik mengambil studi kasus RPJMD, diharapkan volatilitas politik yang masih terjadi di Indonesia bisa dimitigasi. Volatilitas politik sebagai *cloud problem* diharapkan dapat dimitigasi dengan intervensi kecerdasan buatan yang merupakan *clock problem*. 
+
+## Kerangka Pemikiran
+`r knitr::include_graphics("./images/GoalTree.png")`
+Gambar 1. Rencana Tesis 
+
+## Metodologi dan Lokus Penelitian 
+Untuk menjembatani antara open policy analysis dan kecerdasan buatan, pembahasan mengenai kota cerdas dan kota responsif dibutuhkan untuk menengahi dan memberi konteks topik dan metode analisis yang diangkat dalam proses perencanaan pembangunan. Metode riset yang dilakukan adalah pengembangan studi kasus aplikasi kecerdasan buatan. Pengembangan produk kecerdasan buatan perlu melibatkan praktisi perencana (Sanchez, 2022) agar lebih bermanfaat.  
+Lokus penelitian memanfaatkan luas Negara Kesatuan Republik Indonesia dengan mengambil 3 wilayah studi yang secara spesifik dinilai dari kebutuhan substansi dan peluang temuan. Wilayah yang dijadikan studi kasus adalah Provinsi Jawa Tengah untuk kajian dasar kordinasi dan sinkronisasi proses perencanaan, Provinsi Jawa Barat untuk kesiapan institusi digital dan Wilayah Metropolitan Jabodetabekpunjur untuk kajian lintas provinsi. 
+
+## Sistematika Pembahasan 
+Pembahasan penelitian akan mengacu pada format jurnal yang akan ditentukan pada proses selanjutnya. Namun pada proposal ini, BAB I berupa pendahuluan mengacu pada sistematika penulisan tesis. BAB 2 adalah kajian literatur bebas terkait kerangka teori penelitian. BAB 3 gambaran wilayah studi lebih menggambarkan kondisi institusi untuk kordinasi pengembangan studi kasus secara eksisting dibandingkan wilayah fisik. BAB 4 berupa metode penelilitan dan operasional. 
+
+# KAJIAN LITERATUR 
+## Open Policy Analysis dan Proses Perencanaan Pembangunan 
+Open Policy Analysis secara sederhana adalah pengembangan dari praksis Open Data di pemerintahan dan Open Science di kalangan akademis (#Gambar1). Jika dalam praksis Open Data yang dibuka ke publik hanya data saja, dalam Open Policy Analysis dibuka juga kode analisis, kode proses dan kode presentasi [@Guardia2021]+rogerpeng. Praksis Open Science sendiri adalah jawaban atas krisis reprodusibilitas yang terjadi di berbagai disiplin ilmu. 
+
+Gambar 2.1. Faktor Pendukung Tren Kebijakan Terbuka 
+
+Meskipun kemajuan teknologi berperan sentral, faktor kapabilitas sumber daya manusia juga penting dalam mengembangkan teknologi analisis kebijakan di pemerintahan [@Puron-Cid2012]. Open policy analysis bisa memanfaatkan kuantitas tenaga kerja analis data dan IT yang terus dibutuhkan pasar dan terus meningkat. @Guardia2021 lebih lanjut membedakan peran warga dan peneliti. Pemisahan peran partisipatoris warga dengan para ahli (peneliti) sebenarnya tidak sesuai dengan tujuan penelitian ini, namun memberi gambaran bagaimana kondisi lapangan analisis kebijakan yang ada.
+
+### Proses Perencanaan Kota Cerdas dan Responsif 
+Dalam konteks perencanaan pembangunan, penelitian ini berdiri diantara perencanaan strategis teknokratis dan perencanaan partisipatoris. Perumusan tujuan perencanaan adalah salah satu tahap awal dalam model perencanaan strategis.
+Berkembangnya komunitas-komunitas analitik data di berbagai belahan dunia diharapkan bisa meningkatkan adopsi kota cerdas. This paper propose open policy analysis as a “missing piece” in smart city discussion. Komponen smart city dijelaskan melalui piramida kebutuhan tenaga ahli kecerdasan buatan (Gambar 1).
+
+## Sintesa Literatur
+Penelitian NLP dalam perencanaan bisa dikatakan dimulai sejak 2021 (Cai, 2021; Brinkley, 2021)
+
+Fu, 2023
+Brinkley, 2021
+
+- 
+
+# Daftar Pustaka
+`r if (knitr::is_html_output()) '# References {-}'`

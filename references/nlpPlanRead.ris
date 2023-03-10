@@ -1,0 +1,55 @@
+TY  - JOUR
+AB  - Problem, research strategy, and findings: Planners need to read plans to learn and adapt current practice. Planners may struggle to find time to read and study lengthy planning documents, especially in emerging areas such as climate change and urban resilience. Recently, natural language processing (NLP) has shown promise in processing big textual data. We asked whether planners could use NLP techniques to more efficiently extract useful and reliable information from planning documents. By analyzing 78 resilience plans from the 100 Resilient Cities Network, we found that results generated from topic modeling, which is an NLP technique, coincided to a large extent (80%) with those from the conventional content analysis approach. Topic modeling was generally effective and efficient in extracting the main information of plans, whereas the content analysis approach could find more in-depth details but at the expense of considerable time and effort. We further propose a transferrable model for cutting-edge planners to more efficiently read and study a large collection of plans using machine learning. Our methodology has limitations: Both topic modeling and content analysis can be subject to human bias and generate unreliable results; NLP text processing techniques may create inaccurate results due to their specific method limitations; and the transferable approach can be only applied to big textual data where there are enough sufficiently long documents. Takeaway for practice: NLP represents a valuable addition to the planner’s toolbox. Topic modeling coupled with other NLP techniques can help planners to effectively discover key topics in plans, identify planning priorities and plans of specific emphasis, and find relevant policies.
+AU  - Fu, Xinyu
+AU  - Li, Chaosu
+AU  - Zhai, Wei
+DO  - 10.1080/01944363.2022.2038659
+IS  - 1
+KW  - machine learning
+KW  - natural language processing
+KW  - plan evaluation
+KW  - urban resilience
+PB  - Routledge
+PY  - 2023
+SP  - 107
+EP  - 119
+TI  - Using Natural Language Processing to Read Plans: A Study of 78 Resilience Plans From the 100 Resilient Cities Network
+T2  - Journal of the American Planning Association
+VL  - 89
+ER  -
+TY  - JOUR
+AB  - Land-use control is local and highly varied. State agencies struggle to assess plan contents. Similarly, advocacy groups and planning researchers wrestle with the length of planning documents and ability to compare across plans. The goal of this research is to (1) introduce Natural Language Processing techniques that can automate qualitative coding in planning research and (2) provide policy-relevant exploratory findings. We assembled a database of 461 California city-level General Plans, extracted the text, and used topic modeling to identify areas of emphasis (clusters of co-occurring words). We find that California city general plans address more than sixty topics, including greenhouse gas mitigation and Climate Action Planning. Through spatializing results, we find that a quarter of the topics in plans are regionally specific. We also quantify the rift and convergence of planning topics. The topics focused on housing have very little overlap with other planning topics. This is likely a factor of state requirements to update and evolve the Housing Elements every five years, but not other aspects of General Plans. This finding has policy implications as housing topics evolve away from other emphasis areas such as transportation and economic development. Furthermore, the topic modeling approach reveals that many cities have had a focus on environmental justice through Health and Wellness Elements well before the state mandate in 2019. Our searchable state-level database of general plans is the first for California—and nationally. We provide a model for others that wish to comprehensively assess and compare plan contents using machine learning.
+AU  - Brinkley, Catherine
+AU  - Stahmer, Carl
+DO  - 10.1177/0739456X21995890
+KW  - California
+KW  - General Plan
+KW  - computational linguistics
+KW  - machine learning
+PB  - SAGE Publications Inc.
+PY  - 2021
+TI  - What Is in a Plan? Using Natural Language Processing to Read 461 California City General Plans
+T2  - Journal of Planning Education and Research
+ER  -
+TY  - JOUR
+AB  - Spatial development plans are the basic tool for shaping spatial policy and have an impact on the implementation of the concept of sustainable development. Monitoring the implementation of plans can be difficult where no standard of plans exists that allows for obtaining comprehensive information on the arrangements of the plans, including future land development. The purpose of the research is to integrate spatial development plans by analyzing and classifying their textual content. We use machine learning methods for the processing of the text of plans and their classification. The result is a model, that classifies the texts of findings for individual areas in the plan into defined land use categories. We use machine learning methods in natural language processing for the analyzing of the text part of plans and their classification. The results indicate the best quality of the model when using neural networks. The proposed approach allows for obtaining comprehensive information on the planned land use of the area, derived from many heterogeneous planning documents. Due to the combination of textual arrangements with spatial data, it allows both for the unification of land use classification and then integration of multiple spatial development plans in spatial dimension.
+AU  - Kaczmarek, Iwona
+AU  - Iwaniak, Adam
+AU  - Świetlicka, Aleksandra
+AU  - Piwowarczyk, Mateusz
+AU  - Nadolny, Adam
+DA  - 2022/1//
+DO  - 10.1016/j.scs.2021.103479
+KW  - GRU
+KW  - LSTM
+KW  - Neural networks
+KW  - Spatial development plan
+KW  - Spatial planning
+KW  - Text classification
+KW  - Unsupervised machine learning
+PB  - Elsevier Ltd
+PY  - 2022
+TI  - A machine learning approach for integration of spatial development plans based on natural language processing
+T2  - Sustainable Cities and Society
+VL  - 76
+ER  -
